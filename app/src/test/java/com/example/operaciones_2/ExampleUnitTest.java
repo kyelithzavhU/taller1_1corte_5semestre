@@ -11,7 +11,10 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void multiplicacion_isCorrect()
+    {
+        pantalla_multiplicacion pantalla_multipli = new pantalla_multiplicacion();
+
+        assertEquals(15, pantalla_multipli.multiplicacion(5,3));
     }
 }
